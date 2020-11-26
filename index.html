@@ -13,6 +13,7 @@
 
 <body>
     <!--Menu-->
+    <div class="fixed-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <a class="navbar-brand text-primary" href="index.html">MathLab</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
@@ -36,6 +37,7 @@
             </form>
         </div>
     </nav>
+</div>
     <!--/Menu-->
 
     <!--Carousel-->
@@ -55,21 +57,29 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/carousel2.jpg" alt="Segundo slide">
-                <div class="carousel-caption d-none d-md-block text-white bg-dark">
-                    <h1>A história da matemática</h1>
-                    <h3>Conheça a origem desta matéria fantástica e suas evoluções</h3>
-                </div>
+                <a href="historiamatematica.html">
+                    <img class="d-block w-100" src="assets/img/carousel2.jpg" alt="Segundo slide">
+                    <div class="carousel-caption d-none d-md-block text-white bg-dark">
+                        <h1>A história da matemática</h1>
+                        <h3>Conheça a origem desta matéria fantástica e suas evoluções</h3>
+                    </div>
+                </a>
+                
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/carousel3.jpg" alt="Terceiro slide">
+                <a href="xadrez.html">
+                    <img class="d-block w-100" src="assets/img/carousel3.jpg" alt="Terceiro slide">
+                </a>
+                
                 <div class="carousel-caption d-none d-md-block text-white bg-dark">
                     <h1>A matemática no xadrez</h1>
                     <h3>Saiba as curiosidades matemáticas do xadrez</h3>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/carousel4.jpg" alt="Quarto Slide">
+                <a href="learn.html">
+                    <img class="d-block w-100" src="assets/img/carousel4.jpg" alt="Quarto Slide">
+                </a>
                 <div class="carousel-caption d-none d-md-block text-white bg-dark">
                     <h1>Como estudar matemática?</h1>
                     <h3>Aprenda a aprender matemática e a desenvolver o pensamento matemático</h3>
@@ -95,7 +105,7 @@
     <!--/Jumbotron-->
 
     <!--Cards-->
-    <div class="container">
+    <div class="p-5">
         <div class="card-deck">
             <div class="card">
                 <img class="card-img-top" src="assets/img/card1.png" alt="Imagem de capa do card">
@@ -108,7 +118,10 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="assets/img/card2.png" alt="Imagem de capa do card">
+                <a href="historiamatematica.html">
+                    <img class="card-img-top" src="assets/img/card2.png" alt="Imagem de capa do card">
+                </a>
+                
                 <div class="card-body">
                     <h5 class="card-title">A história da matemática</h5>
                     <p class="card-text justify">Contemple uma breve história da matemática e de como a mesma foi de
@@ -120,7 +133,9 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="assets/img/card3.jpeg" alt="Imagem de capa do card">
+                <a href="xadrez.html">
+                    <img class="card-img-top" src="assets/img/card3.jpeg" alt="Imagem de capa do card">
+                </a>
                 <div class="card-body">
                     <h5 class="card-title">A matemática no xadrez</h5>
                     <p class="card-text justify">Veja como a matemática e a lógica são aplicadas no xadrez e descubra as
@@ -131,7 +146,9 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="assets/img/card4.jpg" alt="Imagem de capa do card">
+                <a href="learn.html">
+                    <img class="card-img-top" src="assets/img/card4.jpg" alt="Imagem de capa do card">
+                </a>
                 <div class="card-body">
                     <h5 class="card-title">O caminho para aprender matemática</h5>
                     <p class="card-text justify">Saiba qual a melhor maneira de aprender matemática e como entender, efetivamente, as aplicações deste conhecimento no seu cotidiano, na natureza e na vida.</p>
@@ -140,29 +157,31 @@
             </div>
         </div>
 
+    </div>
     <!--/Cards-->
 
     <!--Texto e Vídeo-->
-
+    <div class="container">
     <div class="row mt-5 mb-5">
-        <div class="col-md-6">
+        <div class="col-md-6 justify mb-5 p-3">
             <h3>Descubra a beleza da matemática!</h3>
             <p>3blue1brown é um canal sobre matemática animada, em todos os sentidos da palavra animar. O criador do famoso canal do youtube, Grant Sanderson, traz várias perspectivas interessantes sobre a matemática e muito mais. É um dos vários exemplos de ferramentas para despertar a curiosidade das pessoas para com esta matéria a qual muitos julgam, abstrata e sem graça.</p>
             <p>Confira este vídeo do canal, trazendo uma viagem fantástica de programação, arte e matemática para um dos temas que costumam ser um pesadelo até mesmo para aqueles que admiram a matéria: as transformadas de Fourier.</p>
         </div>
-        <div class="col-md-6">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/spUNpyF58BY" frameborder="0"
+        <div class="col-md-6 embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/spUNpyF58BY" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
     </div>
-
+    </div>
     <!--/Texto e Vídeo-->
     
     </div>
 
     <!--Rodapé-->
     <hr>
+    <div class="container">
     <footer>
         <div class="row mb-3">
             <div class="col-md-12 d-flex justify-content-center">
@@ -196,6 +215,7 @@
         
 
     </footer>
+</div>
     <!--/Rodapé-->
     
 
